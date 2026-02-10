@@ -1,0 +1,377 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "category": "movies",
+      "words": ["Inception",
+        "Avatar",
+        "Titanic",
+        "Joker",
+        "Matrix",
+        "Gladiator",
+        "Batman",
+        "Spiderman",
+        "Ironman",
+        "Avengers"
+      ]
+    },
+    {
+      "level": 2,
+      "category": "animals",
+      "words": ["lion",
+        "tiger",
+        "leopard",
+        "elephant",
+        "giraffe",
+        "zebra",
+        "monkey",
+        "panda",
+        "kangaroo",
+        "wolf"
+      ]
+    },
+    {
+      "level": 3,
+      "category": "people",
+      "words": ["Albert Einstein",
+        "Isaac Newton",
+        "Nikola Tesla",
+        "Leonardo Da Vinci",
+        "Alexander The Great",
+        "Cleopatra",
+        "Napoleon Bonaparte",
+        "Mahatma Gandhi",
+        "Nelson Mandela",
+        "Martin Luther King"
+      ]
+    },
+    {
+      "level": 4,
+      "category": "foods",
+      "words": ["pizza",
+        "burger",
+        "pasta",
+        "lasagna",
+        "spaghetti",
+        "koshary",
+        "shawarma",
+        "falafel",
+        "sandwich",
+        "hotdog"
+      ]
+    },
+    {
+      "level": 5,
+      "category": "countries",
+      "words": ["Egypt",
+        "France",
+        "Italy",
+        "Spain",
+        "Germany",
+        "Portugal",
+        "Norway",
+        "Sweden",
+        "Finland",
+        "Denmark"
+      ]
+    },
+    {
+      "level": 6,
+      "category": "sports",
+      "words": ["football",
+        "basketball",
+        "volleyball",
+        "tennis",
+        "badminton",
+        "cricket",
+        "baseball",
+        "rugby",
+        "hockey",
+        "swimming"
+      ]
+    },
+    {
+      "level": 7,
+      "category": "movies",
+      "words": ["Interstellar",
+        "Parasite",
+        "Whiplash",
+        "Scarface",
+        "Goodfellas",
+        "Endgame",
+        "Infinity War",
+        "The Prestige",
+        "The Godfather",
+        "Terminator"
+      ]
+    },
+    {
+      "level": 8,
+      "category": "animals",
+      "words": ["hippopotamus",
+        "rhinoceros",
+        "chimpanzee",
+        "crocodile",
+        "dolphin",
+        "whale",
+        "shark",
+        "eagle",
+        "falcon",
+        "buffalo"
+      ]
+    },
+    {
+      "level": 9,
+      "category": "people",
+      "words": ["Abraham Lincoln",
+        "George Washington",
+        "Winston Churchill",
+        "Queen Elizabeth",
+        "Cristiano Ronaldo",
+        "Lionel Messi",
+        "Mohamed Salah",
+        "Barack Obama",
+        "Donald Trump",
+        "Elon Musk"
+      ]
+    },
+    {
+      "level": 10,
+      "category": "foods",
+      "words": ["chocolate",
+        "ice cream",
+        "pancakes",
+        "waffles",
+        "cheesecake",
+        "hamburger",
+        "fried chicken",
+        "burrito",
+        "croissant",
+        "sushi"
+      ]
+    },
+    {
+      "level": 11,
+      "category": "countries",
+      "words": ["Indonesia",
+        "Malaysia",
+        "Thailand",
+        "Japan",
+        "China",
+        "India",
+        "Canada",
+        "Mexico",
+        "Brazil",
+        "Argentina"
+      ]
+    },
+    {
+      "level": 12,
+      "category": "sports",
+      "words": ["gymnastics","boxing","wrestling","karate","taekwondo","cycling","formula one","motogp","surfing","skateboarding"]
+    },
+    {
+      "level": 13,
+      "category": "movies",
+      "words": ["Shawshank Redemption","Dark Knight","Pulp Fiction","Fight Club","Social Network","Lion King","Forrest Gump","The Departed","The Revenant","Wolf of Wall Street"]
+    },
+    {
+      "level": 14,
+      "category": "animals",
+      "words": ["orangutan","platypus","armadillo","hedgehog","squirrel","porcupine","butterfly","dragonfly","sloth","anteater"]
+    },
+    {
+      "level": 15,
+      "category": "people",
+      "words": ["Marie Curie","Thomas Edison","Stephen Hawking","Ada Lovelace","Alan Turing","Grace Hopper","Rosa Parks","Mother Teresa","Malala Yousafzai","Amelia Earhart"]
+    },
+    {
+      "level": 16,
+      "category": "foods",
+      "words": ["ramen","tacos","paella","biryani","curry","dumplings","gnocchi","risotto","macaroni","moussaka"]
+    },
+    {
+      "level": 17,
+      "category": "countries",
+      "words": ["Switzerland","Austria","Belgium","Netherlands","Ireland","Scotland","Wales","Iceland","Greece","Turkey"]
+    },
+    {
+      "level": 18,
+      "category": "sports",
+      "words": ["snowboarding","skiing","ice skating","table tennis","handball","archery","fencing","weightlifting","rock climbing","bouldering"]
+    },
+    {
+      "level": 19,
+      "category": "movies",
+      "words": ["Lord of the Rings","The Hobbit","Harry Potter","Jurassic Park","Star Wars","Guardians of the Galaxy","Deadpool","Avatar Way of Water","Mad Max Fury Road","Blade Runner"]
+    },
+    {
+      "level": 20,
+      "category": "animals",
+      "words": ["pterodactyl","tyrannosaurus rex","velociraptor","triceratops","stegosaurus","brontosaurus","ankylosaurus","diplodocus","iguanodon","spinosaurus"]
+    },
+
+    {
+      "level": 21,
+      "category": "people",
+      "words": ["William Shakespeare","Charles Darwin","Sigmund Freud","Carl Jung","Friedrich Nietzsche","Jean Paul Sartre","Immanuel Kant","Socrates","Plato","Aristotle"]
+    },
+    {
+      "level": 22,
+      "category": "foods",
+      "words": ["sashimi","tempura","okonomiyaki","takoyaki","udon","soba","mochi","matcha","yakitori","teriyaki"]
+    },
+    {
+      "level": 23,
+      "category": "countries",
+      "words": ["South Africa","Nigeria","Kenya","Ethiopia","Uganda","Tanzania","Morocco","Algeria","Tunisia","Sudan"]
+    },
+    {
+      "level": 24,
+      "category": "sports",
+      "words": ["canoeing","kayaking","polo","softball","lawn bowls","curling","rowing","sailing","windsurfing","kite surfing"]
+    },
+    {
+      "level": 25,
+      "category": "movies",
+      "words": ["Imitation Game","Truman Show","Green Mile","The Pianist","Great Gatsby","Benjamin Button","Grand Budapest Hotel","Shape of Water","The Martian","Arrival"]
+    },
+    {
+      "level": 26,
+      "category": "animals",
+      "words": ["gorilla","bonobo","gibbon","lemur","meerkat","warthog","aardvark","okapi","hyena","mongoose"]
+    },
+    {
+      "level": 27,
+      "category": "people",
+      "words": ["Mark Zuckerberg","Steve Jobs","Bill Gates","Larry Page","Sergey Brin","Jeff Bezos","Sundar Pichai","Satya Nadella","Tim Cook","Jack Ma"]
+    },
+    {
+      "level": 28,
+      "category": "foods",
+      "words": ["tiramisu","gelato","pavlova","baklava","churros","quesadilla","empanada","arepa","ceviche","tamale"]
+    },
+    {
+      "level": 29,
+      "category": "countries",
+      "words": ["United States","United Kingdom","South Korea","North Korea","New Zealand","Philippines","Vietnam","Cambodia","Laos","Myanmar"]
+    },
+    {
+      "level": 30,
+      "category": "sports",
+      "words": ["mountain biking","road cycling","triathlon","duathlon","aquathlon","ultra marathon","marathon","trail running","orienteering","race walking"]
+    },
+
+    {
+      "level": 31,
+      "category": "movies",
+      "words": ["Silence of the Lambs","Se7en","The Shining","The Exorcist","Hereditary","Get Out","A Quiet Place","The Conjuring","Insidious","It Follows"]
+    },
+    {
+      "level": 32,
+      "category": "animals",
+      "words": ["tarantula","scorpion","centipede","millipede","praying mantis","grasshopper","ladybug","firefly","mosquito","beetle"]
+    },
+    {
+      "level": 33,
+      "category": "people",
+      "words": ["Julius Caesar","Genghis Khan","Attila the Hun","Catherine the Great","Joseph Stalin","Vladimir Lenin","Mao Zedong","Kim Il Sung","Pol Pot","Ho Chi Minh"]
+    },
+    {
+      "level": 34,
+      "category": "foods",
+      "words": ["ratatouille","bouillabaisse","coq au vin","beef bourguignon","cassoulet","fondue","raclette","gnocchi romana","risotto milanese","polenta"]
+    },
+    {
+      "level": 35,
+      "category": "countries",
+      "words": ["Saudi Arabia","United Arab Emirates","Qatar","Kuwait","Bahrain","Oman","Jordan","Lebanon","Palestine","Syria"]
+    },
+    {
+      "level": 36,
+      "category": "sports",
+      "words": ["ice hockey","field hockey","lacrosse","water polo","rowing","sailing","wakeboarding","stand up paddleboarding","dragon boat racing","yachting"]
+    },
+    {
+      "level": 37,
+      "category": "movies",
+      "words": ["Fellowship of the Ring","Two Towers","Return of the King","Sorcerers Stone","Chamber of Secrets","Prisoner of Azkaban","Goblet of Fire","Order of the Phoenix","Half Blood Prince","Deathly Hallows"]
+    },
+    {
+      "level": 38,
+      "category": "animals",
+      "words": ["blue whale","humpback whale","orca","great white shark","hammerhead shark","manta ray","stingray","sea turtle","sea lion","walrus"]
+    },
+    {
+      "level": 39,
+      "category": "people",
+      "words": ["Franklin D Roosevelt","John F Kennedy","Malcolm X","Angela Merkel","Margaret Thatcher","Indira Gandhi","Golda Meir","Benazir Bhutto","Jawaharlal Nehru","Aung San Suu Kyi"]
+    },
+    {
+      "level": 40,
+      "category": "foods",
+      "words": ["spaghetti carbonara","fettuccine alfredo","bolognese sauce","lasagna bolognese","margherita pizza","pepperoni pizza","quattro formaggi","capricciosa","calzone","pesto pasta"]
+    },
+
+    {
+      "level": 41,
+      "category": "countries",
+      "words": ["Czech Republic","Slovakia","Slovenia","Croatia","Serbia","Bosnia and Herzegovina","Montenegro","Albania","North Macedonia","Bulgaria"]
+    },
+    {
+      "level": 42,
+      "category": "sports",
+      "words": ["bobsleigh","luge","skeleton","biathlon","cross country skiing","speed skating","figure skating","ice dancing","snowshoeing","Nordic combined"]
+    },
+    {
+      "level": 43,
+      "category": "movies",
+      "words": ["Matrix Reloaded","Matrix Revolutions","Terminator 2","Bourne Identity","Bourne Supremacy","Bourne Ultimatum","Mission Impossible","Mission Impossible Fallout","Casino Royale","Quantum of Solace"]
+    },
+    {
+      "level": 44,
+      "category": "animals",
+      "words": ["albatross","pelican","seagull","penguin","flamingo","ostrich","emu","kiwi bird","toucan","hummingbird"]
+    },
+    {
+      "level": 45,
+      "category": "people",
+      "words": ["Pablo Picasso","Vincent van Gogh","Claude Monet","Michelangelo","Salvador Dali","Frida Kahlo","Georgia O Keeffe","Andy Warhol","Jackson Pollock","Edvard Munch"]
+    },
+    {
+      "level": 46,
+      "category": "foods",
+      "words": ["souvlaki","gyros","dolmades","baklava dessert","spanakopita","tzatziki","feta cheese","kebab","pita bread","halloumi"]
+    },
+    {
+      "level": 47,
+      "category": "countries",
+      "words": [
+        "SriLanka",
+        "Bangladesh",
+        "Pakistan",
+        "Afghanistan",
+        "Nepal",
+        "Bhutan",
+        "Maldives",
+        "Mongolia",
+        "Kazakhstan",
+        "Uzbekistan"]
+    },
+    {
+      "level": 48,
+      "category": "sports",
+      "words": ["paragliding","hang gliding","skydiving","base jumping","bungee jumping","parkour","freerunning","ice climbing","mountaineering","caving"]
+    },
+    {
+      "level": 49,
+      "category": "movies",
+      "words": ["Batman Begins","Dark Knight Rises","Dunkirk","Tenet","Memento","Insomnia","Following","Oppenheimer","The Batman","Man of Steel"]
+    },
+    {
+      "level": 50,
+      "category": "animals",
+      "words": ["African elephant","Asian elephant","white rhinoceros","black rhinoceros","Siberian tiger","Bengal tiger","snow leopard","polar bear","grizzly bear","brown bear"]
+    }
+  ]
+}

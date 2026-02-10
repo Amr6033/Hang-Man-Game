@@ -1,0 +1,259 @@
+@media (max-width: 1100px) {
+
+  /* === الصفحة نفسها === */
+  body {
+    overflow-y: auto;
+  }
+
+  .container {
+    margin-top: 6px;
+    padding: 12px;
+    width: 95% !important;
+  }
+
+  /* === الجزء اللي فيه الرسمة + الكيبورد === */
+  .row {
+    gap: 12px;
+  }
+
+  /* === Hangman Box === */
+  .hangman-draw {
+    padding: 0;
+    margin: 0 auto;
+    height: 200px;
+    width: 100%;
+    align-items: flex-start;
+    position: relative;
+  }
+
+  /* === الرسم نفسه === */
+  .the-draw {
+    position: absolute;
+    top: -20px;
+    height: 100%;
+    margin: 0 auto;
+    transform: scale(0.60);
+  }
+
+
+  /* === الكيبورد === */
+  .letters {
+    padding: 10px;
+    margin-top: 0;
+    flex-wrap: wrap;
+    width: calc(100% - 20px) !important;
+  }
+
+  .letters .letter-box {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 17px;
+    margin: 5px;
+  }
+
+  /* === الكلمة === */
+  .letters-guess {
+    margin-top: 8px;
+    padding: 10px;
+  }
+
+  .letters-guess span {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    margin: 5px;
+  }
+
+  /* === زر الهنت === */
+  .hint {
+    margin: 8px auto 0;
+  }
+}
+
+@media (max-width: 727px) {
+
+  /* ===== الصفحة ===== */
+  body {
+    overflow-y: auto;
+  }
+
+  .game .container {
+    width: 100% !important;
+    padding: 10px;
+    margin-top: 6px;
+  }
+
+  /* ===== Game Info ===== */
+  .game-info {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    text-align: center;
+    padding: 12px;
+  }
+
+  .game .game-info .info {
+    justify-content: center;
+    padding: 0 !important;
+    gap: 0;
+    position: relative;
+    left: 5px;
+  }
+
+  .cups-level {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .points {
+    font-size: 13px;
+    padding: 6px 12px;
+  }
+
+  .category {
+    justify-self: center;
+    font-size: 13px;
+  }
+
+  /* ===== المحتوى الأبيض ===== */
+  .row {
+    flex-direction: column;
+    gap: 10px;
+    height: 50vh;
+  }
+
+  /* ===== Hangman ===== */
+  .hangman-draw {
+    height: 250px !important;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .game .the-draw {
+    height: 300px;
+    margin: 0 auto;
+    top: -23px;
+    transform: scale(0.5);
+  }
+
+  .game .the-stand {
+    height: calc(100% + 20px);
+  }
+
+  /* تصغير وتوسيط الرجل */
+  .the-hang {
+    top: 6px;
+  }
+
+  .the-rope {
+    top: 6px;
+    height: 26px;
+  }
+
+  .the-rope::before {
+    left: -24px;
+    top: 25px;
+    width: 45px;
+    height: 45px;
+  }
+
+  .head {
+    left: 125px;
+
+    top: 38px;
+    width: 37px;
+    height: 37px;
+  }
+
+  .head::after {
+    left: 15px;
+    top: 30px;
+
+  }
+
+  .hangman-draw .body {
+    top: 112px;
+    left: 144px;
+    height: 55px;
+  }
+
+  .hands {
+    top: 111px;
+    left: 142.5px;
+  }
+
+  .legs {
+    top: 182px;
+  }
+
+  /* ===== الكيبورد ===== */
+  .letters {
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 5px;
+  }
+
+  .letters .letter-box {
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 16px;
+    margin: 5px;
+  }
+
+  /* ===== الكلمة ===== */
+  .letters-guess {
+    margin-top: 6px;
+    padding: 10px;
+  }
+
+  .letters-guess span {
+    width: 28px !important;
+    height: 28px !important;
+    line-height: 28px;
+    font-size: 17px;
+    margin: 4px;
+  }
+
+  /* ===== زر الهنت ===== */
+  .hint {
+    margin: 6px auto 0;
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 727px) {
+
+  .hangman-draw {
+    padding: 0;
+  }
+
+  .letters {
+    padding: 8px;
+  }
+
+  .letters .letter-box {
+    margin: 4px;
+    font-size: 15px;
+  }
+
+  .letters-guess {
+    padding: 8px;
+    margin-top: 4px;
+  }
+
+  .letters-guess span {
+
+    font-size: 16px;
+    margin: 3px;
+  }
+
+  .hint {
+    margin-top: 4px;
+    padding: 6px 12px;
+  }
+}

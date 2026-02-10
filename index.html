@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hangman Game</title>
+  <link rel="shortcut icon" href="icons8-hangman-50.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Log.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&#038;display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- <a href="test.html">test</a> -->
+  <!-- Start Screen -->
+  <div class="back">
+    <div class="login-card">
+      <h1>HANGMAN</h1>
+
+      <input type="text" class="username" placeholder="Enter your name">
+
+      <button class="log">Start Game</button>
+
+      <div class="error" id="error">
+        Username is required
+      </div>
+    </div>
+  </div>
+  <div class="start-screen" id="startScreen">
+
+    <!-- Settings Icon -->
+    <div class="settings-icon" id="openSettings">
+      <i class="fa-solid fa-gear"></i>
+    </div>
+
+    <h1>HANGMAN</h1>
+
+    <button class="start-btn" id="startGame">
+      ▶ Start Game
+    </button>
+
+  </div>
+  <!-- From Uiverse.io by Smit-Prajapati -->
+  <!-- Popup -->
+
+  <div class="overlay" id="overlay">
+    <div class="settings-popup">
+
+      <h2>Game Settings</h2>
+      <div class="setting-row">
+        <span><i class="fa-solid fa-user"></i> User</span>
+        <span class="user-name" id="user"></span>
+      </div>
+      <div class="setting-row">
+        <span class="cupi"><i class="fa-solid fa-trophy"></i> Cups</span>
+        <span class="cups-count" id="cups"></span>
+      </div>
+
+      <div class="setting-row">
+        <span>🔊 Volume</span>
+        <input type="range" class="volume" min="0" max="1" step="0.01" value="0.5" />
+      </div>
+
+      <div class="users">
+        <h4><i class="fa-solid fa-users"></i>Users</h4>
+        <div class="info-Users">
+          <span><i class="fa-solid fa-user"></i> User</span>
+          <span class="cupi"> Cups</span>
+          <span>Level</span>
+          <span>Action</span>
+        </div>
+        <div class="users-list"></div>
+      </div>
+      <div class="buttons">
+        <button class="restart" id="restartGame">Restart ⟳</button>
+        <button class="clear-data" id="clear-data">Reset Game</button>
+        <button class="reset" id="reset">Remove User</button>
+        <button class="close" id="closeSettings">✖</button>
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="game">
+    <div class="game-info">
+
+      <!-- Left : Game Name + Settings -->
+      <div class="info">
+        <div class="game-name">HangMan</div>
+
+        <button class="game-setting" aria-label="Settings">
+          <i class="fa-solid fa-gear"></i>
+        </button>
+      </div>
+
+      <!-- Center : Level + Cups -->
+      <div class="cups-level">
+        <div class="game-level">
+          Level: <span class="level"></span>
+        </div>
+
+        <div class="points">
+          🏆 Cups: <span class="cups">0</span>
+        </div>
+      </div>
+
+      <!-- Right : Category -->
+      <div class="category">
+        Category: <span></span>
+      </div>
+
+    </div>
+    <div class="container">
+
+      <div class="row">
+        <div class="hangman-draw">
+          <div class="the-draw">
+            <div class="the-stand"></div>
+            <div class="the-hang"></div>
+            <div class="the-rope"></div>
+            <div class="the-man">
+              <div class="head"></div>
+              <div class="hands"></div>
+              <div class="body"></div>
+              <div class="legs"></div>
+            </div>
+          </div>
+        </div>
+        <div class="letters"></div>
+      </div>
+      <div class="letters-guess"></div>
+      <div class="hint-row">
+        <button class="hint"><span></span> Hints</button>
+
+        <div class="repeat-tooltip" id="repeatTooltip">
+          Letter already used
+          <span class="arrow"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="loseOverlay" class="lose-overlay">
+    <div class="lose-popup lose">
+      <div class="icon">💀</div>
+      <h2>You Lose!</h2>
+      <p>The word was:</p>
+      <span id="loseWord" class="word"></span>
+
+      <div class="lose-buttons">
+        <button id="again" class="btn red">Restart ⟳</button>
+        <button class="restart btn green" id="resettt">🏠 Main Menu</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="win-overlay" id="winOverlay">
+    <div class="win-popup">
+      <h1>🏆 You Win!</h1>
+
+      <p class="word-label">The word was:</p>
+      <div id="winWord" class="win-word"></div>
+
+      <div class="win-actions">
+        <button class="btn next" id="play-again">Next Level ➜</button>
+        <button class="btn restart" id="restart">Restart ⟳</button>
+      </div>
+    </div>
+  </div>
+
+  <audio class="success" src="Audio hang man/freesound_community-piglevelwin2mp3-14800.mp3" preload="auto"></audio>
+  <audio class="win-Game" src="Audio hang man/mixkit-medieval-show-fanfare-announcement-226.wav" preload="auto"></audio>
+  <audio class="fail" src="Audio hang man/mixkit-player-losing-or-failing-2042.wav" preload="auto"></audio>
+  <audio class="click" src="Audio hang man/mixkit-select-click-1109.wav" preload="auto"></audio>
+  <audio class="bgMusic" src="Audio hang man/Powerful(chosic.com).mp3" autoplay loop></audio>
+  <script src="script.js" type="module"></script>
+</body>
+
+</html>
