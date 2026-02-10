@@ -109,7 +109,7 @@ log.addEventListener("click", () => {
       let levelData = gameData.levels[currentLevel];
       let words = levelData.words;
       randomWord = words[Math.floor(Math.random() * words.length)];
-      document.querySelector(".category span").innerHTML = randomWord;  // ================= Create Guess Spans =================
+      document.querySelector(".category span").innerHTML = levelData["category"].slice(0,1).toUpperCase() +  levelData["category"].slice(1) ;  // ================= Create Guess Spans =================
       let lettersGuess = document.querySelector(".letters-guess");
       lettersGuess.innerHTML = ""; // reset
 
